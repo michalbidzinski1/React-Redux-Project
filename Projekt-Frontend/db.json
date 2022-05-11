@@ -1,0 +1,29 @@
+{
+  "characters": [],
+  "episodes": [
+    {
+      "title": "Pilot",
+      "release_date": "2021-07-30",
+      "series": "Breaking Bad",
+      "img": "https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/05/54ccc794c5861_-_esq-0101-breaking-bad-season-1-episode-1-2012-wbonn4-de.jpg",
+      "charactersList": [],
+      "id": 1
+    },
+    {
+      "title": "ewqeq",
+      "release_date": "2022-01-22",
+      "series": "Better Call Saul",
+      "img": "https://www.sc.org.pl/app/files/2020/05/20200505_konsultacje_spoleczne_main.png",
+      "charactersList": [],
+      "id": 2
+    },
+    {
+      "title": "zz",
+      "release_date": "2019-07-22",
+      "series": "Breaking Bad",
+      "img": "https://www.sc.org.pl/app/files/2020/05/20200505_konsultacje_spoleczne_main.png",
+      "charactersList": [],
+      "id": 3
+    }
+  ]
+}

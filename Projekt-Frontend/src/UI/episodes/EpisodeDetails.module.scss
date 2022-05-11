@@ -1,0 +1,62 @@
+.item {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .image,
+  .content {
+    flex: 1 1 0;
+  }
+  .image {
+    padding: 10px;
+    flex: 30%;
+    img {
+      width: 100%;
+    }
+  }
+  .content {
+    flex: 70%;
+    padding: 10px;
+    button {
+      font: inherit;
+      cursor: pointer;
+      color: orange;
+      border: 1px solid orange;
+      background-color: transparent;
+      margin-top: 10px;
+      border-radius: 4px;
+      width: 30%;
+      height: 50px;
+    }
+  }
+
+  .actions {
+    flex: 100%;
+    order: 3;
+
+    .opis {
+      font-style: italic;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .item {
+    flex-direction: column;
+    width: 100%;
+  }
+  .image,
+  .actions,
+  .content {
+    width: 100%;
+
+    button {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+  .opis {
+    overflow-wrap: break-word;
+  }
+}

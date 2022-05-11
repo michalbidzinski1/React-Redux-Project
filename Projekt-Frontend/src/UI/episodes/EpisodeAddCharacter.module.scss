@@ -1,0 +1,62 @@
+.form {
+}
+.button {
+  font: inherit;
+  cursor: pointer;
+  margin: 10px;
+  width: 100%;
+  background-color: orange;
+  color: white;
+  padding: 15px;
+  border: 1px solid orange;
+  border-radius: 4px;
+  font-weight: bold;
+  &:hover {
+    background-color: orange;
+    border-color: orange;
+  }
+  &:active {
+    background-color: lightgreen;
+    border-color: lightgreen;
+  }
+}
+.butonno {
+  font: inherit;
+  cursor: pointer;
+  margin: 10px;
+  width: 100%;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border: 1px solid red;
+  border-radius: 4px;
+  font-weight: bold;
+  &:hover {
+    background-color: red;
+    border-color: red;
+  }
+  &:active {
+    background-color: red;
+    border-color: red;
+  }
+}
+.buttonadd {
+  font: inherit;
+  cursor: pointer;
+  margin: 10px;
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 15px;
+  border: 1px solid green;
+  border-radius: 4px;
+  font-weight: bold;
+  &:hover {
+    background-color: green;
+    border-color: green;
+  }
+  &:active {
+    background-color: green;
+    border-color: green;
+  }
+}
